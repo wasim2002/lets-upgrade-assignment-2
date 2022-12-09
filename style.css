@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pacifico', cursive;
+}
+
+body {
+    background-color: #810CA8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+span {
+    font-size: 50px;
+    color: #E8F3D6;
+    text-shadow: 5px 2px 5px black;
+    transition: 0.5s;
+    letter-spacing: 4px;
+}
+
+span:hover {
+    font-size: 55px;
+    color: rgb(219, 180, 245);
+}
+
+
+.h {
+    animation: joinh 10s 1s infinite;
+    position: relative;
+}
+
+@keyframes joinh {
+    0% {
+        transform: translate(0px);
+    }
+
+    30% {
+        transform: translate(-720px);
+    }
+
+    70% {
+        transform: translate(0px);
+    }
+
+    90% {
+        transform: translate(-1px);
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+}
+
+.e {
+    animation: joine 10s 1s infinite;
+    position: relative;
+}
+
+@keyframes joine {
+    0% {
+        transform: translateY(0px);
+    }
+
+    30% {
+        transform: translateY(-450px);
+    }
+
+    70% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+ 
+.l {
+    animation: joinl 10s 1s infinite;
+    position: relative;
+} 
+
+@keyframes joinl {
+    0% {
+        transform: translateY(0px);
+    }
+
+    30% {
+        transform: translateY(450px);
+    }
+
+    70% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.ll {
+    animation: joinll 10s 1s infinite;
+    position: relative;
+}
+
+@keyframes joinll {
+    0% {
+        transform: translate(0px);
+    }
+
+    30% {
+        transform: translateX(850px);
+    }
+
+    70% {
+        transform: translate(0px);
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+}
+
+.o {
+    animation: joino 10s 1s infinite;
+    position: relative;
+}
+
+@keyframes joino {
+    0% {
+        transform: translateY(0px);
+    }
+
+    30% {
+        transform: translateX(1450px);
+    }
+
+    70% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.astro {
+    animation: astro 10s 1s infinite;
+    position: relative;
+}
+
+@keyframes astro {
+    0% {
+        font-size: 50px;
+    }
+
+    1% {
+        font-size: 30px;
+    }
+
+    2% {
+        font-size: 20px;
+    }
+
+    5% {
+        font-size: 10px;
+    }
+
+    10% {
+        font-size: 0px;
+    }
+
+    20% {
+        font-size: 0px;
+    }
+
+    30% {
+        font-size: 0px;
+    }
+
+    35% {
+        font-size: 10px;
+    }
+
+    50% {
+        font-size: 20px;
+    }
+
+    60% {
+        font-size: 30px;
+    }
+
+    70% {
+        font-size: 50px;
+    }
+
+    100% {
+        font-size: 50px;
+    }
+}
+
+.rocket{
+    animation: rocket 10s 1s infinite;
+    position: relative;
+}
+
+@keyframes rocket {
+    0%{
+        transform: translate(0);
+    }
+    30%{
+        transform: translate(750px , -400px) ;
+    }
+    31%{
+        transform: translate(750px , -400px) rotate(180deg);
+    }
+    45%{
+        /* transform: translate(200px , -100px)rotate(190deg); */
+    } 
+    55%{
+        transform: translate(70px , -50px) rotate(180deg);
+    }
+    60%{
+        transform: translate(20px ,-30px) rotate(70deg);
+    }
+    62%{
+        transform: translate(19px ,-29px) rotate(60deg);
+    }
+    64%{
+        transform: translate(17px , -25px ) rotate(40deg);
+    }
+    66%{
+        transform: translate(15px , -22px) rotate(20deg);
+    }
+    68%{
+        transform: translate(10px , -15px ) rotate(-30deg);
+    }
+    69%{
+        transform: translate(10px , -15px ) rotate(-40deg);
+    }
+    70%{
+        transform: translate(10px , -15px) rotate(-40deg);
+    }
+    85%{
+        transform: translate(10px , -15px ) rotate(-40px);
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
